@@ -1,8 +1,7 @@
 import pytest
 
-
-from packages.ml_api.api.app import create_app
-from packages.ml_api.api.config import TestingConfig
+from api.app import create_app
+from api.config import TestingConfig
 
 
 @pytest.fixture
